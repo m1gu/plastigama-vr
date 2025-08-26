@@ -1,0 +1,36 @@
+# ==================================
+# Unity - Archivos generados (no se versionan)
+# ==================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+sysinfo.txt
+
+# Crash reports
+*.stacktrace
+
+# ==================================
+# Archivos de IDE (Visual Studio, Rider, etc.)
+# ==================================
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# ==================================
+# Sistema operativo
+# ==================================
+.DS_Store
+Thumbs.db
