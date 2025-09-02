@@ -10,6 +10,7 @@
 [Mm]emoryCaptures/
 UserSettings/
 sysinfo.txt
+*.apk
 
 # Crash reports
 *.stacktrace
@@ -18,6 +19,7 @@ sysinfo.txt
 # Archivos de IDE (Visual Studio, Rider, etc.)
 # ==================================
 .vscode/
+.vs/
 .idea/
 *.csproj
 *.unityproj
