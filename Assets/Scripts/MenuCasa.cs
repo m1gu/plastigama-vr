@@ -8,7 +8,12 @@ public class MenuCasa : MonoBehaviour
     // Llama este método desde el botón "INICIAR RECORRIDO"
     public void AbrirCasa()
     {
-        SceneManager.LoadScene("Casa");
+        SceneManager.LoadScene("03_Casa");
+    }
+
+    public void AbrirJuego()
+    {
+        SceneManager.LoadScene("04_JuegoBurbujas");
     }
 
 }
