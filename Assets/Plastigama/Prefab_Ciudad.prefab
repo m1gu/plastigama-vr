@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &321850616853563342
 Transform:
@@ -150,7 +150,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &805671092866322758
 Transform:
@@ -191,7 +191,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5456151443485911543
 Transform:
@@ -259,7 +259,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1729436633322929619
 Transform:
@@ -368,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -429,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -492,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -553,6 +565,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -618,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6ebdb33410a64104183488ba1308fdef, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -681,6 +697,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -748,6 +768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree02
       objectReference: {fileID: 0}
+    - target: {fileID: 2270418557321974176, guid: 152a59272db73b24daf0722f8232c967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -809,6 +833,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -876,6 +904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2270418557321974176, guid: 152a59272db73b24daf0722f8232c967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -897,6 +929,10 @@ PrefabInstance:
     - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_Name
       value: house-4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 437924, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_LocalScale.x
@@ -1016,6 +1052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1037,6 +1077,10 @@ PrefabInstance:
     - target: {fileID: 114488, guid: 885ba0f7311e97c43adc92e949d3be8c, type: 3}
       propertyPath: m_Name
       value: house-5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114488, guid: 885ba0f7311e97c43adc92e949d3be8c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 487108, guid: 885ba0f7311e97c43adc92e949d3be8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -1160,6 +1204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2270418557321974176, guid: 152a59272db73b24daf0722f8232c967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1221,6 +1269,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
       propertyPath: m_Name
       value: Calle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1284,6 +1336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1345,6 +1401,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1408,6 +1468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1470,6 +1534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Union_Canal_Canal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1531,6 +1599,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1600,7 +1672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 25e0610634525e840b7dbe99ef9f767d, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1663,6 +1735,10 @@ PrefabInstance:
     - target: {fileID: 8850679618252463804, guid: 9941bae1e5adceb40b88eec93a5cbcf7, type: 3}
       propertyPath: m_Name
       value: European_Spindle_wk1ncbxja_Mid_wk1ncbxja_VarJ_LOD2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850679618252463804, guid: 9941bae1e5adceb40b88eec93a5cbcf7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1729,6 +1805,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1804,6 +1884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1866,6 +1950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Union_Canal_Canal (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1927,6 +2015,10 @@ PrefabInstance:
     - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
       propertyPath: m_Name
       value: Camino (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2004,7 +2096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2068,6 +2160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: European_Spindle_wk1ncbxja_Mid_wk1ncbxja_VarA_LOD1
       objectReference: {fileID: 0}
+    - target: {fileID: 1947178549823110854, guid: 87876815ec7dbc7469ad905639a9745b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2130,6 +2226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2151,6 +2251,10 @@ PrefabInstance:
     - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_Name
       value: house-7 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 482180, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_LocalScale.x
@@ -2272,7 +2376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 895939181591912981, guid: a85612fcd5f4c6c4b96f8ecf3f704cc7, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2336,6 +2440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2397,6 +2505,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e6c1a8c46ca1bd9499f5ad6d274c3885, type: 3}
       propertyPath: m_Name
       value: Union_Esquina_Exterior (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6c1a8c46ca1bd9499f5ad6d274c3885, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2460,6 +2572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jardinera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c581c8dfe62d28d4ca91d9b6375bdb58, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2481,6 +2597,10 @@ PrefabInstance:
     - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_Name
       value: house-7
+      objectReference: {fileID: 0}
+    - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 482180, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_LocalScale.x
@@ -2600,6 +2720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2661,6 +2785,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2724,6 +2852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tuberia_Tanque
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce2b501d936bb0549ac4e8fcfc3c3e11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2745,6 +2877,10 @@ PrefabInstance:
     - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_Name
       value: house-4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 437924, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_LocalScale.x
@@ -2876,6 +3012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2942,6 +3082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3003,6 +3147,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
       propertyPath: m_Name
       value: Canal (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3066,6 +3214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Union_Canal_Canal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3127,6 +3279,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3190,6 +3346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3251,6 +3411,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3320,7 +3484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3396,6 +3560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3457,6 +3625,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3520,6 +3692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3581,6 +3757,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3644,6 +3824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3705,6 +3889,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3768,6 +3956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3829,6 +4021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
       propertyPath: m_Name
       value: Union_Canal_Canal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3894,7 +4090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 895939181591912981, guid: a85612fcd5f4c6c4b96f8ecf3f704cc7, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3958,6 +4154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4020,6 +4220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4081,6 +4285,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4147,6 +4355,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
       propertyPath: m_Name
       value: Canal (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4222,6 +4434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4284,6 +4500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4305,6 +4525,10 @@ PrefabInstance:
     - target: {fileID: 120560, guid: 0563b6932813cf64b87c9b1f0d095475, type: 3}
       propertyPath: m_Name
       value: house-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 120560, guid: 0563b6932813cf64b87c9b1f0d095475, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452972, guid: 0563b6932813cf64b87c9b1f0d095475, type: 3}
       propertyPath: m_LocalScale.x
@@ -4420,6 +4644,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8634018572319847919, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8068073526183931155, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7700158312818385950, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5775279500973074148, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5071559289078318672, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4792498484868738823, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4734696514785758689, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4480971023674353025, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4334315650604636168, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4295846607530520708, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3733217342693727235, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3658808886251333910, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -3584497630037689987, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
@@ -4430,9 +4702,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1760714182489039777, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1566721399840503833, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1268168054308008490, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -836913931895027844, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -580460194052922758, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -305091885687274788, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -262652478912081249, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -81849711938303876, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
@@ -4440,13 +4736,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094559010302358929, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1110151451127348426, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834239318149361685, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268695892161294113, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3321759141408033058, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3594243245622329198, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3855073655484056057, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370951913967234905, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907619979006476734, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036781420244770783, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7998476799926316886, guid: 8ecf0f86658a44547a14d30d000032e4, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4472,7 +4808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114488, guid: 885ba0f7311e97c43adc92e949d3be8c, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 487108, guid: 885ba0f7311e97c43adc92e949d3be8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -4600,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ed9e9b83c17662448085685f7079ec7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4674,6 +5014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4735,6 +5079,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
       propertyPath: m_Name
       value: Calle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4798,6 +5146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: European_Spindle_wk1ncbxja_Mid_wk1ncbxja_VarJ_LOD2
       objectReference: {fileID: 0}
+    - target: {fileID: 8850679618252463804, guid: 9941bae1e5adceb40b88eec93a5cbcf7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4859,6 +5211,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4926,6 +5282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4987,6 +5347,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aaa401635b54ed34da4d4818e8f88b5b, type: 3}
       propertyPath: m_Name
       value: Bajante
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aaa401635b54ed34da4d4818e8f88b5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5050,6 +5414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terreno (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5111,6 +5479,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5174,6 +5546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bajante (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aaa401635b54ed34da4d4818e8f88b5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5236,6 +5612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5297,6 +5677,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5362,11 +5746,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5480719917534411458, guid: 49f4a308cbdb3b246bca883a7492d8ef, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8526801813022086859, guid: 49f4a308cbdb3b246bca883a7492d8ef, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5430,6 +5814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terreno (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5491,6 +5879,10 @@ PrefabInstance:
     - target: {fileID: 8850679618252463804, guid: 9941bae1e5adceb40b88eec93a5cbcf7, type: 3}
       propertyPath: m_Name
       value: European_Spindle_wk1ncbxja_Mid_wk1ncbxja_VarJ_LOD2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850679618252463804, guid: 9941bae1e5adceb40b88eec93a5cbcf7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5558,6 +5950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5619,6 +6015,10 @@ PrefabInstance:
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_Name
       value: SM_Mobile_Trees (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5682,6 +6082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5743,6 +6147,10 @@ PrefabInstance:
     - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
       propertyPath: m_Name
       value: Camino (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5806,6 +6214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5867,6 +6279,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5934,6 +6350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5995,6 +6415,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6058,6 +6482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terreno (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6119,6 +6547,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6186,6 +6618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6247,6 +6683,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
       propertyPath: m_Name
       value: Calle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6310,6 +6750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6371,6 +6815,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
       propertyPath: m_Name
       value: Calle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6434,6 +6882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6495,6 +6947,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
       propertyPath: m_Name
       value: Canal (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6562,6 +7018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6624,6 +7084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6645,6 +7109,10 @@ PrefabInstance:
     - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_Name
       value: house-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 437924, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_LocalScale.x
@@ -6764,6 +7232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6838,6 +7310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torre
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8061d5299be35164d90b59581ce0e432, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6896,13 +7372,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6966,6 +7446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7027,6 +7511,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7092,7 +7580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 895939181591912981, guid: a85612fcd5f4c6c4b96f8ecf3f704cc7, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7115,6 +7603,10 @@ PrefabInstance:
     - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_Name
       value: house-4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 437924, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_LocalScale.x
@@ -7234,6 +7726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7308,6 +7804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7369,6 +7869,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7450,7 +7954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c16c7a386cfb4704c9dd7510f76ca1fa, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7518,6 +8022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7579,6 +8087,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e6c1a8c46ca1bd9499f5ad6d274c3885, type: 3}
       propertyPath: m_Name
       value: Union_Esquina_Exterior
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6c1a8c46ca1bd9499f5ad6d274c3885, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7642,6 +8154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terreno (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7704,6 +8220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7765,6 +8285,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
       propertyPath: m_Name
       value: Union_Canal_Canal (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7832,6 +8356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2270418557321974176, guid: 152a59272db73b24daf0722f8232c967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7894,6 +8422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calle_Esquina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2cb74ec28a191b46a0d2259007bace1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7955,6 +8487,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8030,6 +8566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8051,6 +8591,10 @@ PrefabInstance:
     - target: {fileID: 166792, guid: 59eca1571a9551f4d8c5f2899b16f560, type: 3}
       propertyPath: m_Name
       value: house-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 166792, guid: 59eca1571a9551f4d8c5f2899b16f560, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 479642, guid: 59eca1571a9551f4d8c5f2899b16f560, type: 3}
       propertyPath: m_LocalScale.x
@@ -8170,6 +8714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8231,6 +8779,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8294,6 +8846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerramiento (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8355,6 +8911,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c581c8dfe62d28d4ca91d9b6375bdb58, type: 3}
       propertyPath: m_Name
       value: Jardinera (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c581c8dfe62d28d4ca91d9b6375bdb58, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8418,6 +8978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8479,6 +9043,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c581c8dfe62d28d4ca91d9b6375bdb58, type: 3}
       propertyPath: m_Name
       value: Jardinera
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c581c8dfe62d28d4ca91d9b6375bdb58, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8542,6 +9110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8603,6 +9175,10 @@ PrefabInstance:
     - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
       propertyPath: m_Name
       value: Camino (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8678,6 +9254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8739,6 +9319,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8802,6 +9386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calle_Esquina
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2cb74ec28a191b46a0d2259007bace1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8860,13 +9448,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_Name
       value: Terreno (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8930,6 +9522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8992,6 +9588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9013,6 +9613,10 @@ PrefabInstance:
     - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_Name
       value: house-4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114528, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 437924, guid: ac6ca8cf070677c4c8e2f25ff19f4e12, type: 3}
       propertyPath: m_LocalScale.x
@@ -9132,6 +9736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9192,7 +9800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 320235cab4e16b9408272e2674cd186d, type: 3}
       propertyPath: m_StaticShadowCaster
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 320235cab4e16b9408272e2674cd186d, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9204,7 +9812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 320235cab4e16b9408272e2674cd186d, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9224,6 +9832,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1729436633322929619}
     m_Modifications:
+    - target: {fileID: 4672435903608055710, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5808798469229976817, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.6
@@ -9267,6 +9879,10 @@ PrefabInstance:
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_Name
       value: SM_Mobile_Trees (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9330,6 +9946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Calle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7919314ac3c06e4fb60ac67d378ff16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9351,6 +9971,10 @@ PrefabInstance:
     - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_Name
       value: house-7 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190446, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 482180, guid: 7050ffcb0a8ddc6409a9f2dab3175f51, type: 3}
       propertyPath: m_LocalScale.x
@@ -9470,6 +10094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9532,6 +10160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canal (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92e66bd3e036e38418b51568cb4f0cd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9593,6 +10225,10 @@ PrefabInstance:
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_Name
       value: SM_Mobile_Trees (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9662,7 +10298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9726,6 +10362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9788,6 +10428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terreno (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5d8348edef2a024f971c72b7fc8ab2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9849,6 +10493,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9916,6 +10564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2270418557321974176, guid: 152a59272db73b24daf0722f8232c967, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9978,6 +10630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Union_Canal_Canal (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10039,6 +10695,10 @@ PrefabInstance:
     - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
       propertyPath: m_Name
       value: Camino (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10106,6 +10766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tanque_Elevado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92885b42da56e6b47bdb745c4835c4c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10167,6 +10831,10 @@ PrefabInstance:
     - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
       propertyPath: m_Name
       value: Camino (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879710505994387697, guid: 0ffe8c164a6a9eb4aa4fa69b6bea5501, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10233,6 +10901,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10312,6 +10984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Union_Canal_Bajante
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ea5a072c0515294b918331e53094b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10386,6 +11062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Mobile_Trees (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617810691623044683, guid: 3265e9c50e477624a9b33bcc2915cfa6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10447,6 +11127,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
       propertyPath: m_Name
       value: Union_Canal_Canal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84a6c383c98b38348a634a71b0ef30f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10510,6 +11194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10571,6 +11259,10 @@ PrefabInstance:
     - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
       propertyPath: m_Name
       value: Cerca (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10634,6 +11326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10696,6 +11392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cerca (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1905431605180340491, guid: 5e192237d523337488b7951e50225229, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10757,6 +11457,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
       propertyPath: m_Name
       value: Cerramiento (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b14ffe770d2d1934db3dd215253b3ff2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
