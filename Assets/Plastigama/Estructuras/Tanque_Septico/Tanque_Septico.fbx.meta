@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ebdb33410a64104183488ba1308fdef
+guid: d5e8712717a81d143bfd6172d3bb9d61
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MAT-Tuberia_Septica_Tubo
-    second: {fileID: 2100000, guid: 92f137f244f21fe479da212c1c71268a, type: 2}
+      name: MATTanque_Septico_Blanco
+    second: {fileID: 2100000, guid: c244af90c534f834bb98cbb4bfc320ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MAT_Tuberia_Septica_Caja
-    second: {fileID: 2100000, guid: 660e65df2a488ca4fb04c056153649cb, type: 2}
+      name: MATTanque_Septico_T
+    second: {fileID: 2100000, guid: 03cac8db53305144f9b4338b1fe5494e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tanque _Septico
+    second: {fileID: 2100000, guid: 05b327d46efa6b64892cc90e74ecf440, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -58,7 +63,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
