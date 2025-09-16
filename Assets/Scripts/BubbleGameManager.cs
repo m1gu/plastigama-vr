@@ -59,6 +59,21 @@ public class BubbleGameManager : MonoBehaviour
     [Header("Flujo (Escenas)")]
     public string mainMenuSceneName = "01_MenuPrincipal";
 
+    [Header("Música de fondo")]
+    [Tooltip("Arrastra aquí tu clip de música de fondo.")]
+    public AudioClip musicClip;
+
+    [Range(0f, 1f)]
+    [Tooltip("Volumen de la música (0–1).")]
+    public float musicVolume = 0.5f;
+
+    [Tooltip("Si está activo, la música inicia en Awake.")]
+    public bool musicPlayOnAwake = true;
+
+    // Fuente interna para la música (2D, en loop)
+    private AudioSource musicSource;
+
+
     // Internos
     private readonly List<BubbleData> activeBubbles = new List<BubbleData>();
     private Coroutine spawnCo, timerCo, countdownCo;
@@ -117,6 +132,23 @@ public class BubbleGameManager : MonoBehaviour
         if (!spawnArea) Debug.LogError("[GM] Asigna spawnArea.");
         if (!userHead) Debug.LogError("[GM] Asigna userHead (Main Camera).");
         if (!bubblePrefab) Debug.LogError("[GM] Asigna bubblePrefab (con BubbleAppearance).");
+
+        // --- Música de fondo ---
+        if (musicSource == null)
+        {
+            musicSource = gameObject.AddComponent<AudioSource>();
+            musicSource.playOnAwake = false;   // control manual
+            musicSource.loop = true;           // que suene en bucle
+            musicSource.spatialBlend = 0f;     // 2D (no posicional en VR)
+        }
+
+        musicSource.volume = Mathf.Clamp01(musicVolume);
+        musicSource.clip = musicClip;
+
+        if (musicPlayOnAwake && musicSource.clip != null)
+        {
+            musicSource.Play();
+        }
     }
 
     // Botones
@@ -433,5 +465,26 @@ public class BubbleGameManager : MonoBehaviour
 
         return worldPos;
     }
+
+    /// <summary> Cambia el volumen de la música en tiempo real (útil para Slider UI). </summary>
+    public void SetMusicVolume(float v)
+    {
+        musicVolume = Mathf.Clamp01(v);
+        if (musicSource) musicSource.volume = musicVolume;
+    }
+
+    /// <summary> Inicia la música si hay clip y no está reproduciendo. </summary>
+    public void PlayMusic()
+    {
+        if (musicSource && musicSource.clip && !musicSource.isPlaying)
+            musicSource.Play();
+    }
+
+    /// <summary> Detiene la música. </summary>
+    public void StopMusic()
+    {
+        if (musicSource) musicSource.Stop();
+    }
+
 
 }

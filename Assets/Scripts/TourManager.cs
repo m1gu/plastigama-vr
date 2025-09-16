@@ -3,6 +3,8 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
+using UnityEngine.Animations;
 
 public class TourManager : MonoBehaviour
 {
@@ -12,15 +14,24 @@ public class TourManager : MonoBehaviour
         public string id;                       // "CanalesBajantes", "TanqueSeptico", "Tanque"
         public Transform startPoint;            // Punto de inicio del usuario para este paso
         public AudioClip narration;             // Locución IA
+        public AudioClip narration2;     // Locución 2 opcional para este paso
         public GameObject infoPanel;            // Panel de información (tu UI manual)
+        public GameObject card1;         // Card que se muestra con la locución 1
+        public GameObject card2;         // Card que se muestra con la locución 2
         public BlinkHighlighter[] blinkTargets; // Opcional: grupos a parpadear (solo donde aplique)
         public UnityEvent onEnter;              // Eventos especiales (p.ej. VFX "aparece tanque", anim tapa)
         public UnityEvent onExit;
         public bool autoAdvance = true;         // Avanzar al terminar locución
+        public Animator animTarget;        // Objeto a animar (debe tener Animator)
+        public AnimationClip oneShotClip;  // Clip que se ejecuta 1 vez
+        public bool playClipOnEnter;       // Si true, se dispara al entrar al step
     }
 
     [Header("Tour Steps (3 productos en orden)")]
     public TourStep[] steps; // 0: Canales/Bajantes, 1: Tanque Séptico, 2: Tanque
+
+    [Header("Step 1 (visible solo en este paso)")]
+    public GameObject step1Exclusive; // arrastra aquí tu modelo 3D
 
     [Header("General")]
     public Transform xrRig;             // XROrigin raíz (o rig principal)
@@ -41,12 +52,18 @@ public class TourManager : MonoBehaviour
     bool navButtonsAllowed = true;              // si false, se ocultan aunque SetButtons los “quiera” visibles
     bool desiredIniciar, desiredSiguiente, desiredFinalizar; // estado deseado por SetButtons()
 
+    PlayableGraph _oneShotGraph;
+    bool _oneShotGraphActive = false;
+
     void Awake()
     {
         // Estado inicial UI
         SetAllPanels(false);
         SetButtons(iniciar: true, siguiente: false, finalizar: false);
         SetFade(0f);
+
+        if (step1Exclusive) step1Exclusive.SetActive(false);
+
     }
 
     void OnEnable()
@@ -92,6 +109,13 @@ public class TourManager : MonoBehaviour
     // --- Core ---
     IEnumerator CoGoToStep(int target)
     {
+        // Asegurar que no quede un gráfico anterior activo
+        if (_oneShotGraphActive)
+        {
+            _oneShotGraph.Destroy();
+            _oneShotGraphActive = false;
+        }
+
         // cerrar paso anterior
         if (index >= 0 && index < steps.Length)
         {
@@ -103,12 +127,17 @@ public class TourManager : MonoBehaviour
         // fade out
         yield return CoFade(1f, fadeTime);
 
+        
+
         // teleport a startPoint
         var step = steps[target];
         TeleportTo(step.startPoint);
 
         // preparar paso
         index = target;
+
+        if (step1Exclusive) step1Exclusive.SetActive(index == 0);
+
         SetButtons(iniciar: false, siguiente: true, finalizar: (index == steps.Length - 1));
 
         // abrir panel + efectos
@@ -121,20 +150,54 @@ public class TourManager : MonoBehaviour
         // fade in
         yield return CoFade(0f, fadeTime);
 
-        // locución
-        if (voice && step.narration)
+        // --- Step 2 (Tanque): reproducir clip 1 vez y quedarse en el último frame ---
+        if (index == 1) // tercer producto (0,1,2)
         {
-            // Ocultar botones mientras suena la locución
+            if (step.playClipOnEnter && step.animTarget && step.oneShotClip)
+            {
+                // Iniciar gráfico de Playables para reproducir el clip una vez
+                AnimationPlayableUtilities.PlayClip(step.animTarget, step.oneShotClip, out _oneShotGraph);
+                _oneShotGraph.SetTimeUpdateMode(DirectorUpdateMode.GameTime);
+                _oneShotGraphActive = true;
+
+                // Pausar en el último frame (sin bucle)
+                StartCoroutine(CoHoldLastFrame(step.oneShotClip.length));
+            }
+        }
+
+        // locución (soporta 1 o 2 clips y alterna card1 / card2 si están asignados)
+        if (voice && (step.narration || step.narration2))
+        {
+            // Ocultar botones durante la(s) locución(es)
             SetNavButtonsAllowed(false);
 
-            voice.Stop();
-            voice.clip = step.narration;
-            voice.Play();
+            // Estado inicial de cards (si existen): card1 ON, card2 OFF
+            if (step.card1) step.card1.SetActive(true);
+            if (step.card2) step.card2.SetActive(false);
 
-            // Esperar a que termine la locución
-            yield return new WaitWhile(() => voice.isPlaying);
+            // ----- Locución 1 -----
+            if (step.narration)
+            {
+                voice.Stop();
+                voice.clip = step.narration;
+                voice.Play();
+                yield return new WaitWhile(() => voice.isPlaying);
+            }
 
-            // --- Ajuste solicitado: último paso => mostrar SOLO "Finalizar" y no auto-advance ---
+            // Cambiar cards: card1 OFF, card2 ON
+            if (step.card1) step.card1.SetActive(false);
+            if (step.card2) step.card2.SetActive(true);
+
+            // ----- Locución 2 -----
+            if (step.narration2)
+            {
+                voice.Stop();
+                voice.clip = step.narration2;
+                voice.Play();
+                yield return new WaitWhile(() => voice.isPlaying);
+            }
+
+            // Si es el último paso, conservar sólo "Finalizar"
             if (index == steps.Length - 1)
             {
                 SetNavButtonsAllowed(true);
@@ -142,7 +205,7 @@ public class TourManager : MonoBehaviour
                 yield break; // Espera a que el usuario pulse "Finalizar"
             }
 
-            // Pasos intermedios: respetar el comportamiento existente
+            // Pasos intermedios: respetar comportamiento existente
             if (step.autoAdvance)
             {
                 yield return new WaitForSeconds(0.1f);
@@ -151,13 +214,12 @@ public class TourManager : MonoBehaviour
             }
             else
             {
-                // Rehabilitar los botones normales del paso
                 SetNavButtonsAllowed(true);
             }
         }
         else
         {
-            // No hay locución -> botones permitidos
+            // No hay locuciones en este paso: restaurar botones
             SetNavButtonsAllowed(true);
         }
     }
@@ -250,4 +312,21 @@ public class TourManager : MonoBehaviour
         }
         SetFade(target);
     }
+
+    IEnumerator CoHoldLastFrame(float clipLen)
+    {
+        // Espera a que termine el clip
+        yield return new WaitForSeconds(clipLen);
+
+        if (_oneShotGraphActive && _oneShotGraph.IsValid())
+        {
+            // Ir al final y pausar (se queda mostrando el último frame)
+            var root = _oneShotGraph.GetRootPlayable(0);
+            root.SetTime(clipLen);
+            root.SetSpeed(0);
+            // Importante: NO destruir el graph aquí para que conserve la pose.
+            // Se destruirá automáticamente cuando salgas del paso (al entrar a otro step), en el bloque de limpieza.
+        }
+    }
+
 }
