@@ -2618,6 +2618,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1470279098769358944, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
@@ -2664,6 +2668,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190828208922718286, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2626757739553014894, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5033801203051696737, guid: a7888b2f77103ef42b037e080cb5dad6, type: 3}
