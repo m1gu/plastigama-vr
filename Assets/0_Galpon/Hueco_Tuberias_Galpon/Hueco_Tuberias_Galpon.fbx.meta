@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 9b0be187afa63ac44a8285ee9c9c7f6a
+guid: 1a45b6b940ac8bc4192a6813f538b08a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_Techo
-    second: {fileID: 2100000, guid: 14c700efb94930645aa266abc441c18e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -53,7 +48,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: ce44554d26c9f6e47a1177220e7258ab
+guid: 27c0fe9da77b52d4f885dae64f6069db
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Techo
+    second: {fileID: 2100000, guid: 5462f85a19e26994b971c508bb0c57bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
