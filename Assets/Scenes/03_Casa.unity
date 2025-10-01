@@ -3265,7 +3265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -164.9, y: -190}
+  m_AnchoredPosition: {x: -164.9, y: -198}
   m_SizeDelta: {x: 272.3, y: 157}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &684982676
@@ -3302,10 +3302,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFC\xD3MO FUNCIONA?\r\nEl sistema ofrece 5 etapas de tratamiento a las
-    aguas residuales, que incluye depuraci\xF3n del agua tratada. Las etapas son:\r\n1.
-    Sedimentaci\xF3n\r\n2. Filtrado anaer\xF3bio de filtro ascendente\r\n3. Filtrado
-    lento\r\n4. Cloraci\xF3n\r\n5. Filtrado de adsorci\xF3n\r\n"
+  m_text: "Beneficios\r:\n- Fabricado con polietileno de alta calidad, lo que garantiza
+    su alta resistencia.\r\n- Es compacto, liviano, y de f\xE1cil instalaci\xF3n.\r\n-
+    Es 100% herm\xE9tico.\r\n- Reduce el grado de contaminaci\xF3n.\r\n- Disponible
+    en 1200, 2000 y 4000L.\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -3332,8 +3332,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3368,7 +3368,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -39.44304, w: 0}
+  m_margin: {x: 0, y: 0, z: -43.542206, w: -40.127167}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4511,11 +4511,11 @@ MonoBehaviour:
     playClipOnEnter: 1
   - id: TanqueSeptico
     startPoint: {fileID: 65793540}
-    narration: {fileID: 8300000, guid: 4136ed00292767b49ac3c6ead9ed2211, type: 3}
-    narration2: {fileID: 8300000, guid: 96f9ccfdb5d1aaa4684fcbedfbafe81e, type: 3}
+    narration: {fileID: 8300000, guid: 69ad86bb54a27a148bce02ffeb3e59d6, type: 3}
+    narration2: {fileID: 0}
     infoPanel: {fileID: 1109675141}
     card1: {fileID: 741912383}
-    card2: {fileID: 1434263354}
+    card2: {fileID: 0}
     blinkTargets: []
     onEnter:
       m_PersistentCalls:
@@ -4821,7 +4821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1109675142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7820,7 +7820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -150, y: -38}
+  m_AnchoredPosition: {x: -150, y: -56}
   m_SizeDelta: {x: 302, y: 68}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1594394003
@@ -7857,7 +7857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "BIOTANQUE S\xC9PTICO INTEGRADO (SISTEMA DE DESAG\xDCE) "
+  m_text: "BIOTANQUE S\xC9PTICO INTEGRADO"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -7884,8 +7884,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7920,7 +7920,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -292.194, w: 0}
+  m_margin: {x: 0, y: 0, z: -292.194, w: 29.102089}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7957,7 +7957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1625473278
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8176,7 +8176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -150, y: -116}
+  m_AnchoredPosition: {x: -150, y: -102}
   m_SizeDelta: {x: 302, y: 68}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1647432228
@@ -8214,7 +8214,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Un sistema integral para el manejo de aguas residuales dom\xE9sticas es
-    posible. Te presentamos el Biotanque s\xE9ptico integrado de Plastigama Wavin."
+    posible gracias al Biotanque s\xE9ptico integrado de 5 etapas de tratamiento
+    de Plastigama Wavin."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
@@ -8241,8 +8242,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
