@@ -78,7 +78,7 @@ QualitySettings:
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
     vSyncCount: 0
-    realtimeGICPUUsage: 25
+    realtimeGICPUUsage: 50
     lodBias: 0.4
     maximumLODLevel: 0
     enableLODCrossFade: 0
