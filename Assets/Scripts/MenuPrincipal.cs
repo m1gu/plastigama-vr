@@ -12,7 +12,7 @@ public class MenuPrincipal : MonoBehaviour
     // (Opcional) si luego tienes otros botones:
     public void AbrirGalpon()
     {
-        SceneManager.LoadScene("05_Galpon");
+        SceneManager.LoadScene("02_MenuGalpon");
     }
 
 }

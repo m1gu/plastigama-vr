@@ -92,6 +92,17 @@ public class TourManagerGalpon : MonoBehaviour
     public string sceneToLoadOnFinish = "01_MenuPrincipal";
 
     // ----------------------
+    //  NUEVO: Modelos 3D que giran por producto
+    // ----------------------
+    [Header("Modelos 3D por producto (se activan al entrar al paso)")]
+    public GameObject product1Model;  // asigna el modelo del producto 1 (desactivado al inicio)
+    public GameObject product2Model;  // asigna el modelo del producto 2 (desactivado al inicio)
+    public GameObject product3Model;  // asigna el modelo del producto 3 (desactivado al inicio)
+
+    [Tooltip("Velocidad de giro en grados/segundo alrededor del eje Y (mundo)")]
+    public float productModelRotateSpeed = 30f;
+
+    // ----------------------
     // Estado interno
     // ----------------------
     private enum TourState { IdleOutside, Step1, Step2, Step3, Finished }
@@ -115,6 +126,11 @@ public class TourManagerGalpon : MonoBehaviour
         SetupVideoPlayer(video2);
         SetupVideoPlayer(video3);
 
+        // NUEVO: asegurar que los modelos arranquen ocultos (si están asignados)
+        SafeSetActive(product1Model, false);
+        SafeSetActive(product2Model, false);
+        SafeSetActive(product3Model, false);
+
         SetButtons(true, false, false);
         SetFadeImmediate(0f);
     }
@@ -131,6 +147,14 @@ public class TourManagerGalpon : MonoBehaviour
         if (btnIniciar) btnIniciar.onClick.RemoveListener(OnStartClicked);
         if (btnSiguiente) btnSiguiente.onClick.RemoveListener(OnNextClicked);
         if (btnFinalizar) btnFinalizar.onClick.RemoveListener(OnFinishClicked);
+    }
+
+    // NUEVO: girar modelos activos
+    void Update()
+    {
+        RotateIfActive(product1Model);
+        RotateIfActive(product2Model);
+        RotateIfActive(product3Model);
     }
 
     // ======================
@@ -192,6 +216,9 @@ public class TourManagerGalpon : MonoBehaviour
         SafeSetActive(panelInfo1, true);
         yield return PrepareAndPlay(video1, video1FileName);
 
+        // NUEVO: activar modelo 3D del producto 1
+        SafeSetActive(product1Model, true);
+
         // Locución aparte
         SetNavButtonsAllowed(false);
         yield return PlayVoice(voice1, locucion1);
@@ -207,6 +234,8 @@ public class TourManagerGalpon : MonoBehaviour
         // cerrar step 1
         SafeSetActive(panelInfo1, false);
         StopVideo(video1);
+        // NUEVO: ocultar modelo 3D del producto 1
+        SafeSetActive(product1Model, false);
 
         SetButtons(false, false, false);
 
@@ -217,6 +246,9 @@ public class TourManagerGalpon : MonoBehaviour
         // Panel + video 2
         SafeSetActive(panelInfo2, true);
         yield return PrepareAndPlay(video2, video2FileName);
+
+        // NUEVO: activar modelo 3D del producto 2
+        SafeSetActive(product2Model, true);
 
         SetNavButtonsAllowed(false);
         yield return PlayVoice(voice2, locucion2);
@@ -232,6 +264,8 @@ public class TourManagerGalpon : MonoBehaviour
         // cerrar step 2
         SafeSetActive(panelInfo2, false);
         StopVideo(video2);
+        // NUEVO: ocultar modelo 3D del producto 2
+        SafeSetActive(product2Model, false);
 
         SetButtons(false, false, false);
 
@@ -253,6 +287,9 @@ public class TourManagerGalpon : MonoBehaviour
         SafeSetActive(panelInfo3, true);
         yield return PrepareAndPlay(video3, video3FileName);
 
+        // NUEVO: activar modelo 3D del producto 3
+        SafeSetActive(product3Model, true);
+
         SetNavButtonsAllowed(false);
         yield return PlayVoice(voice3, locucion3);
 
@@ -271,6 +308,11 @@ public class TourManagerGalpon : MonoBehaviour
         StopVideo(video1);
         StopVideo(video2);
         StopVideo(video3);
+
+        // NUEVO: ocultar todos los modelos 3D al finalizar
+        SafeSetActive(product1Model, false);
+        SafeSetActive(product2Model, false);
+        SafeSetActive(product3Model, false);
 
         SetButtons(false, false, false);
         yield return CoFade(1f, fadeTime);
@@ -439,5 +481,15 @@ public class TourManagerGalpon : MonoBehaviour
         while (!vp.isPrepared) yield return null;
 
         vp.Play(); // SIN audio (audioOutputMode=None)
+    }
+
+    // ----------------------
+    // NUEVO: helpers de rotación
+    // ----------------------
+    private void RotateIfActive(GameObject go)
+    {
+        if (!go || !go.activeInHierarchy) return;
+        // Gira alrededor del eje Y del mundo para que no dependa de la rotación local del contenedor
+        go.transform.Rotate(0f, productModelRotateSpeed * Time.deltaTime, 0f, Space.World);
     }
 }
