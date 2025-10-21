@@ -3,7 +3,27 @@ guid: bbed026819ab00a41bf74d3a9d0c833b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Asfalto
+    second: {fileID: 2100000, guid: 001240111214be4498fe451a11bc8bf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Asfalto_Oscuro
+    second: {fileID: 2100000, guid: 750f84d03747a7c4a8840d4c6859b0fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pozo
+    second: {fileID: 2100000, guid: d091a386eecc0e446a3087dd6d6cc611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Tragante_Negro.001
+    second: {fileID: 2100000, guid: 0f1d1b946ea15a449b3e7171d649618a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

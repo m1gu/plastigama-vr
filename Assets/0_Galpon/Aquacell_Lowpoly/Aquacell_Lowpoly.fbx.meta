@@ -3,7 +3,12 @@ guid: f0a5a37ea5adf6f4f8b6d0c284d6bac5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Aquacell
+    second: {fileID: 2100000, guid: 9dc88ade702c79d49a6bf013e214746f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

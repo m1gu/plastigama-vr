@@ -3,7 +3,52 @@ guid: a371332b33dc5ea4392298975d0b372b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cemento
+    second: {fileID: 2100000, guid: d0b6222e4d469cb4dae89c219a4a9b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cemento_Oscuro
+    second: {fileID: 2100000, guid: bfba6404f186cde44ae9a1c9d92b4d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Logo_Blanco
+    second: {fileID: 2100000, guid: 1be519eba027797419c669983b4e43ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Logo_Naranja
+    second: {fileID: 2100000, guid: d52fd0fd480c14840bfae7301a212d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Pintura_Crema
+    second: {fileID: 2100000, guid: 507b641b414c8eb4391dc7bcffc6336f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso
+    second: {fileID: 2100000, guid: 5abbc840a9279b24eaf0011c38071f97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Techo
+    second: {fileID: 2100000, guid: 0162d6b47a94c7842aec2a5bc6317a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Vidrio
+    second: {fileID: 2100000, guid: 5e36547a2298f0c478375173a7ca4e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Wavin
+    second: {fileID: 2100000, guid: d6d58f1610ce7d242bbd132fc940d4ed, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

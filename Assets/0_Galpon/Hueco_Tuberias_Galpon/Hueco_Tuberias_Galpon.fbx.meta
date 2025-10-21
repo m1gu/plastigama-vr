@@ -3,7 +3,22 @@ guid: 1a45b6b940ac8bc4192a6813f538b08a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Biax
+    second: {fileID: 2100000, guid: b554a4c2dbb155f4290cb799cfdca528, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Cemento
+    second: {fileID: 2100000, guid: d5c6d632b98f65b46b6624ce843fcc21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Piso
+    second: {fileID: 2100000, guid: 5abbc840a9279b24eaf0011c38071f97, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
