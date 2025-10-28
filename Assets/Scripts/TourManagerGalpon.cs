@@ -102,6 +102,14 @@ public class TourManagerGalpon : MonoBehaviour
     [Tooltip("Velocidad de giro en grados/segundo alrededor del eje Y (mundo)")]
     public float productModelRotateSpeed = 30f;
 
+    [Header("STEP3 - Agua (animación sincronizada)")]
+    public Animator aquacellAguaAnimator;   // Asignar el Animator del agua en el Inspector
+    public string aguaSubeTrig = "AguaSube"; // Nombre del trigger (Animator Parameter)
+    [Tooltip("Nombre exacto del Animator State que debe alcanzarse (opcional). Si se deja vacío, no se espera.")]
+    public string aguaSubeState = "";        // Nombre EXACTO del State al que debería entrar (opcional)
+    public float aguaSubeDelay = 2f;         // Segundos después de iniciar la locución 3
+
+
     // ----------------------
     // Estado interno
     // ----------------------
@@ -200,6 +208,14 @@ public class TourManagerGalpon : MonoBehaviour
         SetTriggerSafe(xrRigAnimator, xrTrig_GoUp);
         yield return WaitForState(xrRigAnimator, xrState_GoUp);
 
+        // *** NUEVO: Iniciar locución 1 justo al terminar la PRIMERA animación (XR_GoUp) ***
+        if (voice1 && locucion1)
+        {
+            voice1.Stop();
+            voice1.clip = locucion1;
+            voice1.Play();
+        }
+
         if (waitOnRoofSeconds > 0f) yield return new WaitForSeconds(waitOnRoofSeconds);
 
         // Abrir techo
@@ -221,7 +237,7 @@ public class TourManagerGalpon : MonoBehaviour
 
         // Locución aparte
         SetNavButtonsAllowed(false);
-        yield return PlayVoice(voice1, locucion1);
+        yield return new WaitWhile(() => voice1 && voice1.isPlaying);
 
         SetNavButtonsAllowed(true);
         SetButtons(false, true, false); // SIGUIENTE
@@ -291,11 +307,27 @@ public class TourManagerGalpon : MonoBehaviour
         SafeSetActive(product3Model, true);
 
         SetNavButtonsAllowed(false);
-        yield return PlayVoice(voice3, locucion3);
+
+        // LOCUCIÓN 3
+        if (voice3 && locucion3)
+        {
+            voice3.Stop();
+            voice3.clip = locucion3;
+            voice3.Play();
+
+            // Disparo de "AguaSube" como las demás animaciones: trigger + (opcional) esperar state.
+            // Se respeta el delay configurado en 'aguaSubeDelay'.
+            StartCoroutine(CoTriggerAguaSubeWithState());
+        }
+
+        // Esperar a que termine la locución
+        yield return new WaitWhile(() => voice3 && voice3.isPlaying);
 
         SetNavButtonsAllowed(true);
         SetButtons(false, false, true); // FINALIZAR
     }
+
+
 
     private IEnumerator CoFinish()
     {
@@ -492,4 +524,25 @@ public class TourManagerGalpon : MonoBehaviour
         // Gira alrededor del eje Y del mundo para que no dependa de la rotación local del contenedor
         go.transform.Rotate(0f, productModelRotateSpeed * Time.deltaTime, 0f, Space.World);
     }
+
+    // ======================
+    //   AguaSube: usa Trigger + (opcional) espera State exacto
+    // ======================
+    private IEnumerator CoTriggerAguaSubeWithState()
+    {
+        // Esperar el delay configurado
+        float delay = Mathf.Max(0f, aguaSubeDelay);
+        if (delay > 0f) yield return new WaitForSeconds(delay);
+
+        // Disparar el trigger configurado
+        SetTriggerSafe(aquacellAguaAnimator, aguaSubeTrig);
+
+        // (Opcional) esperar a que el Animator entre y complete el state indicado
+        if (aquacellAguaAnimator && !string.IsNullOrEmpty(aguaSubeState))
+        {
+            yield return WaitForState(aquacellAguaAnimator, aguaSubeState);
+        }
+    }
+
+
 }
